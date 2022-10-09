@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Versão de Compilação do NODE - TARGETS
+    "outDir": "dist",  // Pasta para gerar a Build - TARGETS
+    "skipLibCheck": true,
+    "sourceMap": true,   // Configurações de DEBUG e Depurar Arquivos - TARGETS
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true, // Checkagem de importações para suporte a todas as plataformas - TARGETS
+    "moduleResolution": "node", // Importar arquivos de uma pasta ou arquivo diretamente - MODULOS
+    "module": "commonjs", // Transformar importações de import para Require para o node entender - MODULOS
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths":{ },
+    "strict": true // Atalho para abrir propriedades do TS de todos
+  },
+  // "include": ["src", "tests"],
+  "exclude": ["node_modules"]
+}
